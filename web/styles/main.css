@@ -1,8 +1,12 @@
 html {
     font-family:Avenir,Arial,"Antique Olive",sans-serif;
+    background-image:url("../images/bats.gif");
+    background-repeat: repeat;
 }
 h1 {
     font-size:1.7em;
+
+
 }
 
 .Welcome:first-letter { 
@@ -11,6 +15,7 @@ h1 {
 
 h2 {
     font-size:1.35em;
+
 }
 
 img {
@@ -18,9 +23,7 @@ img {
 }
 .store {
     text-indent: 1.3em;
-    color: orange;
-    font-style: italic;
-    text-shadow: rgb(0,0,0) -1.5px 0,rgb(0,0,0) 0 -1.5px;
+
 }
 .goblin {
     text-indent: 1.3em;
@@ -38,4 +41,24 @@ li {
 footer {
     font-size:.8em;
     text-align: center;
+}
+body {
+    width: 800px;
+    background-color: white;
+    border-color: black;
+    box-shadow: 0px 0px 3px 3px rgb(0,0,0);
+    margin-left: auto; 
+    margin-right: auto;
+}
+header {
+    border-bottom:thin solid black;
+    background-color: orange;
+    background: linear-gradient(45deg, white, orange 75%,black);
+    padding-bottom: 30px;
+}
+footer {
+    border-top:thin solid black;
+    background: linear-gradient(45deg, black, orange 25%,white);
+    background-color: orange;
+    padding-top: 30px;
 }
