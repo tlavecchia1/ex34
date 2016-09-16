@@ -1,7 +1,41 @@
 html {
     font-family:Avenir,Arial,"Antique Olive",sans-serif;
-    
 }
 h1 {
-    
+    font-size:1.7em;
+}
+
+.Welcome:first-letter { 
+    font-size:2em;
+}
+
+h2 {
+    font-size:1.35em;
+}
+
+img {
+    float: left;
+}
+.store {
+    text-indent: 1.3em;
+    color: orange;
+    font-style: italic;
+    text-shadow: rgb(0,0,0) -1.5px 0,rgb(0,0,0) 0 -1.5px;
+}
+.goblin {
+    text-indent: 1.3em;
+}
+a {
+    color: orange;
+    font-weight: bold;
+}
+a:hover {
+    color: green;
+}
+li {
+    margin: 7px 0;
+}
+footer {
+    font-size:.8em;
+    text-align: center;
 }
