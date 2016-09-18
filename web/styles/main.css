@@ -1,64 +1,101 @@
 html {
-    font-family:Avenir,Arial,"Antique Olive",sans-serif;
     background-image:url("../images/bats.gif");
     background-repeat: repeat;
+    font-family:Avenir,Arial,"Antique Olive",sans-serif;
 }
 h1 {
     font-size:1.7em;
-
-
+    
 }
 
 .Welcome:first-letter { 
     font-size:2em;
 }
+.Welcome {
+    padding-left: 10px;
+}
 
 h2 {
     font-size:1.35em;
-
+    text-indent: .5em;
+    
 }
 
 img {
     float: left;
+    margin-left: .5em;
+    margin-top: .9em;
 }
 .store {
-    text-indent: 1.3em;
-
+    margin: 0;
+    padding: 0;
+    text-indent: 1em;
+    vertical-align: middle;
+    padding-top: 30px;
+    
 }
 .goblin {
-    text-indent: 1.3em;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    text-indent: 1em;
+
 }
+
 a {
     color: orange;
     font-weight: bold;
+    line-height: 10px;
 }
 a:hover {
     color: green;
 }
+
 li {
-    margin: 7px 0;
+    margin-bottom: 5px;
 }
-footer {
-    font-size:.8em;
-    text-align: center;
+
+div {
+    padding-left: 10px;
 }
+
 body {
-    width: 800px;
     background-color: white;
     border-color: black;
     box-shadow: 0px 0px 3px 3px rgb(0,0,0);
     margin-left: auto; 
     margin-right: auto;
+    width: 800px;
+
 }
 header {
     border-bottom:thin solid black;
     background-color: orange;
     background: linear-gradient(45deg, white, orange 75%,black);
     padding-bottom: 30px;
+
 }
 footer {
+    clear: both;
     border-top:thin solid black;
     background: linear-gradient(45deg, black, orange 25%,white);
     background-color: orange;
-    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size:.8em;
+
+}
+p {
+    padding-left: 10px;
+}
+main {
+       float: right;
+       width: 640px;
+}
+nav {
+    float: left;
+    width: 160px;
+}
+.catlink {
+    clear:both;
 }
